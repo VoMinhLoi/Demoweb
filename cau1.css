@@ -1,0 +1,159 @@
+* {  margin: 0px ;}
+#wrapper {
+    margin: auto;
+    height: auto;
+    overflow: auto;
+    width: 1170px;
+    background-color: whitesmoke;
+}
+header {
+    background-image: url(../images/logo.png);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: tdspkt  10s 2s;
+}
+@keyframes tdspkt 
+{
+    0% {background-image: url(../images/logo.png);}
+    25% {background-image: url(../images/spkt1.jpg);}
+    50% {background-image: url(../images/spkt2.jpg);}
+    75% {background-image: url(../images/spkt3.jpg);}
+    100% {background-image: url(../images/logo.png);}
+}
+#logo {
+    padding:40px 0px 0px 173.47px;
+    width: 825px;
+    height: 128px;
+    animation: nameschool 1s forwards;
+    position: relative;
+}
+@keyframes nameschool {
+    from {top: -10px;}
+    to {top: 5px}
+}
+.tdh {
+    font-size: 40px;
+    color: orangered;
+    font-weight: lighter;
+}
+
+.truong {color: white;}
+.TKW03 { color: white;
+}
+
+nav {
+    width: 877px; 
+    height:22px;
+    margin: auto;
+    padding: 25px 0px; 
+    background-image: url(../images/menu.png);
+    border-radius: 5px;
+}
+.menu {padding: 0px 0px;}
+nav li {display: inline;}
+.trangchu {
+    background-image: url(../images/menu.png);
+    color: white;
+    text-decoration: none; 
+    font-size: small;
+    padding: 28px 30px;
+    transition:  background-image 0.7s;
+}
+.trangchu:hover {
+    background-image: url(../images/menu_select.png);
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px grey;
+}
+main {
+    width: 837px;
+    min-height: 995px;
+    margin:  auto ;
+    text-align: justify;
+    background-image: url(../images/content.png);
+    padding: 0px 20px 0px 40px;
+}
+content {
+    display: inline;
+    max-width: 595px;
+    float: left;
+    margin-right: 40px;
+}
+aside {
+    display: inline;
+    width: 190px;
+    float: left;
+}
+p { font-size: 12px;
+    color: rgb(151, 129, 129);
+    line-height: 2em;
+}
+h2 {
+    padding: 20px 0px;
+    font-weight: 500;
+}
+content ul {
+    list-style-image: url(../images/bullet.png);
+    padding-left: 22px;
+}
+content li {
+    margin-top: 5px;
+    color: rgb(151, 129, 129);
+    line-height: 2.4em;
+    font-size: small;
+}
+content > img {
+    width: 250px;
+    height: 150px;
+    margin: 10px 0px 0px 155px ;
+    
+}
+content > img:hover {
+    transform: scale(.75);
+    box-shadow: 10px 10px 20px grey;
+}
+.tt {
+    color:rgb(31, 147, 219);
+    text-decoration: none ;
+    line-height:  25px;
+}
+.thang {
+    font-style: italic;
+    color: black;
+}
+aside > p {
+    margin: 10px 0px;
+}
+.chitiet {color: orangered;}
+.cacdh li {
+    list-style-image: url(../images/link.png)
+}
+.chitiet:hover {
+    text-decoration: none;
+    font-style: italic;
+}
+form {
+    margin-top: 40px;
+}
+label {
+    font-size: 23px;
+}
+input {
+    margin-top: 20px;
+    width: 150px;
+    height: 33px;
+}
+form img {
+    margin-left: 7px;
+    top: 7px;
+    position: relative;
+}
+footer {
+    margin: 0 auto;
+    width: 878px;
+    text-align: center;
+    background-image:url(../images/footer.png) ;
+    margin: auto; 
+}
+address {
+    color: white;
+    padding: 10px 0px;
+}
